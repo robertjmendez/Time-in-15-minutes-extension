@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Time in 15 Minutes",
+  "version": "1.0",
+  "description": "Displays the time in 15 minutes from the user's current time.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon48.png",
+      "48": "icon48.png",
+      "128": "icon48.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "icon48.png",
+    "48": "icon48.png",
+    "128": "icon48.png"
+  }
+}
+
