@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                width: 200px;
-                padding: 10px;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Time in 15 Minutes</h1>
-        <h2 id="time-display"></h2>
-        <script src="popup.js"></script>
-    </body>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 200px;
+            height: 150px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>Future Time</h1>
+<label for="time-selection">Select an amount of time:</label>
+<select id="time-selection">
+    <option value="5">5 minutes</option>
+    <option value="10">10 minutes</option>
+    <option value="15">15 minutes</option>
+    <option value="20">20 minutes</option>
+    <option value="25">25 minutes</option>
+    <option value="30">30 minutes</option>
+    <option value="35">35 minutes</option>
+    <option value="40">40 minutes</option>
+    <option value="45">45 minutes</option>
+    <option value="50">50 minutes</option>
+    <option value="55">55 minutes</option>
+    <option value="60">1 hour</option>
+    <option value="65">1 hour 5 minutes</option>
+    <option value="70">1 hour 10 minutes</option>
+    <option value="75">1 hour 15 minutes</option>
+    <option value="80">1 hour 20 minutes</option>
+    <option value="85">1 hour 25 minutes</option>
+    <option value="90">1 hour 30 minutes</option>
+    <option value="95">1 hour 35 minutes</option>
+    <option value="100">1 hour 40 minutes</option>
+    <option value="105">1 hour 45 minutes</option>
+    <option value="110">1 hour 50 minutes</option>
+    <option value="115">1 hour 55 minutes</option>
+    <option value="120">2 hours</option>
+    <option value="125">2 hours 5 minutes</option>
+    <option value="130">2 hours 10 minutes</option>
+    <option value="135">2 hours 15 minutes</option>
+    <option value="140">2 hours 20 minutes</option>
+    <option value="145">2 hours 25 minutes</option>
+    <option value="150">2 hours 30 minutes</option>
+    <option value="155">2 hours 35 minutes</option>
+    <option value="160">2 hours 40 minutes</option>
+    <option value="165">2 hours 45 minutes</option>
+    <option value="170">2 hours 50 minutes</option>
+    <option value="175">2 hours 55 minutes</option>
+    <option value="180">3 hours</option>
+</select>
+<button id="display-button">Display</button>
+<h2 id="time-display"></h2>
+<script src="popup.js"></script>
+</body>
 </html>
+
+

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Time in 15 Minutes",
-  "version": "0.0.0.1",
-  "description": "Displays the time in 15 minutes from the user's current time.",
+  "version": "0.0.2",
+  "description": "Allows the user to select an amount of time and displays the future time accordingly.",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {

@@ -1,7 +1,10 @@
-function getTimeIn15Minutes() {
+document.getElementById('display-button').addEventListener('click', displayFutureTime);
+
+function displayFutureTime() {
+    const selectedMinutes = parseInt(document.getElementById('time-selection').value);
     const now = new Date();
-    const timeIn15Minutes = new Date(now.getTime() + 15 * 60 * 1000);
-    return timeIn15Minutes.toLocaleTimeString();
+    const futureTime = new Date(now.getTime() + selectedMinutes * 60 * 1000);
+    document.getElementById('time-display').innerText = "Time in " + selectedMinutes + " minutes: " + futureTime.toLocaleTimeString();
 }
 
-document.getElementById('time-display').innerText = getTimeIn15Minutes();
+
